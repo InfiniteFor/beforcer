@@ -30,5 +30,5 @@ edit beforcer.py to input your own dictionary and hash file (or use the provided
 example@example.com:$2a$08$Oi/LCpAimoKwG2Vwdvvlle9BkHUlVBP2EW7AmQLWllyuasYNfOLZ2
 example@example.com:$2a$08$RkFCeuuQDKjc1cB9lFKXwuFj/4FC9Vhk94O61gySlHRR3By7AGw22
 ```
-then run with:<br>
+run with:<br>
 <strong>python beforcer.py</strong>
