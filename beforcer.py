@@ -1,4 +1,5 @@
 import bcrypt
+import sys
 from threading import Thread
 
 def crackhash(password,hashed,user):
@@ -8,8 +9,8 @@ def crackhash(password,hashed,user):
             print '[+] Password for %s is %s' %(user,password)
         
 def main():
-    hash_list = 'bcrypt_hashes.txt'
-    dictionary = 'top10.txt'
+    hash_list = sys.argv[1]
+    dictionary = sys.argv[2]
     print '[*] Start brute-force with threading...'
     with open(hash_list,'r') as hl, open(dictionary,'r') as dic:
         hl = hl.readlines()

@@ -28,12 +28,12 @@ pip install bcrypt
 ```
 
 ## Usage
-Edit beforcer.py to input your own dictionary and hash file (or use the provided example files). Use the following format for hashfile entries (user:hash):<br>
+Use the following format for hashfile entries (user:hash):<br>
 ```
 example@example.com:$2a$08$Oi/LCpAimoKwG2Vwdvvlle9BkHUlVBP2EW7AmQLWllyuasYNfOLZ2
 example@example.com:$2a$08$RkFCeuuQDKjc1cB9lFKXwuFj/4FC9Vhk94O61gySlHRR3By7AGw22
 ```
-Run with:<br>
+Run with hashfile and dictionary as args:<br>
 ```
-python beforcer.py
+python beforcer.py bcrypt_hashes.txt top10.txt
 ```
