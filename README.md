@@ -1,5 +1,5 @@
 ### beforcer
-A simple (threaded) bcrypt brute-forcer. Input your dictionary + hashfile and run it (wisely). It writes the results to pass.txt. 
+A simple (threaded) bcrypt brute-forcer.<br>Input your dictionary + hashfile and run it (wisely). It writes the results to pass.txt. 
 
 ```
 [*] Start brute-force with threading...
